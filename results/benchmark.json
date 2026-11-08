@@ -1,0 +1,801 @@
+{
+  "format": 1,
+  "python": "3.14.6",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "reedsolo": "1.7.0",
+  "data_seed": 20261103,
+  "channel_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19
+  ],
+  "payload_bytes": 512,
+  "payload_sha256": "102bc53de4e2b4f0c04f497a046299a5ae62a17af43792f3853f8d727f3ee857",
+  "rows": [
+    {
+      "config": {
+        "mode": "naive",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 2,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0,
+        "duplication": 0.1
+      },
+      "successes": 20,
+      "trials": 20,
+      "recovery_probability": 1.0,
+      "wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "total_nt": 7040,
+      "net_bits_per_nt": 0.5818181818181818,
+      "overhead_vs_ideal": 2.4375,
+      "manifest_bytes": 320,
+      "encode_seconds": 0.004602333065122366,
+      "encode_peak_python_bytes": 15783,
+      "mean_decode_seconds": 0.010801570804324001,
+      "max_decode_peak_python_bytes": 9219
+    },
+    {
+      "config": {
+        "mode": "naive",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 2,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.1,
+        "duplication": 0.1
+      },
+      "successes": 16,
+      "trials": 20,
+      "recovery_probability": 0.8,
+      "wilson95": [
+        0.5839825677481129,
+        0.9193423374202
+      ],
+      "total_nt": 7040,
+      "net_bits_per_nt": 0.5818181818181818,
+      "overhead_vs_ideal": 2.4375,
+      "manifest_bytes": 320,
+      "encode_seconds": 0.0038704590406268835,
+      "encode_peak_python_bytes": 15124,
+      "mean_decode_seconds": 0.011252131237415596,
+      "max_decode_peak_python_bytes": 11551
+    },
+    {
+      "config": {
+        "mode": "naive",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 2,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.25,
+        "duplication": 0.1
+      },
+      "successes": 2,
+      "trials": 20,
+      "recovery_probability": 0.1,
+      "wilson95": [
+        0.027866481213769084,
+        0.3010336452284804
+      ],
+      "total_nt": 7040,
+      "net_bits_per_nt": 0.5818181818181818,
+      "overhead_vs_ideal": 2.4375,
+      "manifest_bytes": 320,
+      "encode_seconds": 0.00386795902159065,
+      "encode_peak_python_bytes": 15124,
+      "mean_decode_seconds": 0.008808170817792416,
+      "max_decode_peak_python_bytes": 8943
+    },
+    {
+      "config": {
+        "mode": "naive",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 2,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0.001,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.1,
+        "duplication": 0.1
+      },
+      "successes": 17,
+      "trials": 20,
+      "recovery_probability": 0.85,
+      "wilson95": [
+        0.6395811352592498,
+        0.9476312541037819
+      ],
+      "total_nt": 7040,
+      "net_bits_per_nt": 0.5818181818181818,
+      "overhead_vs_ideal": 2.4375,
+      "manifest_bytes": 320,
+      "encode_seconds": 0.0038478750502690673,
+      "encode_peak_python_bytes": 15124,
+      "mean_decode_seconds": 0.012600818707142025,
+      "max_decode_peak_python_bytes": 9146
+    },
+    {
+      "config": {
+        "mode": "naive",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 4,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0,
+        "duplication": 0.1
+      },
+      "successes": 20,
+      "trials": 20,
+      "recovery_probability": 1.0,
+      "wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "total_nt": 8448,
+      "net_bits_per_nt": 0.48484848484848486,
+      "overhead_vs_ideal": 3.125,
+      "manifest_bytes": 320,
+      "encode_seconds": 0.004579792032018304,
+      "encode_peak_python_bytes": 16990,
+      "mean_decode_seconds": 0.012834779202239587,
+      "max_decode_peak_python_bytes": 10183
+    },
+    {
+      "config": {
+        "mode": "naive",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 4,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.1,
+        "duplication": 0.1
+      },
+      "successes": 19,
+      "trials": 20,
+      "recovery_probability": 0.95,
+      "wilson95": [
+        0.7638688065532648,
+        0.9911185511992042
+      ],
+      "total_nt": 8448,
+      "net_bits_per_nt": 0.48484848484848486,
+      "overhead_vs_ideal": 3.125,
+      "manifest_bytes": 320,
+      "encode_seconds": 0.004640916013158858,
+      "encode_peak_python_bytes": 16990,
+      "mean_decode_seconds": 0.014304941816953942,
+      "max_decode_peak_python_bytes": 10558
+    },
+    {
+      "config": {
+        "mode": "naive",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 4,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.25,
+        "duplication": 0.1
+      },
+      "successes": 12,
+      "trials": 20,
+      "recovery_probability": 0.6,
+      "wilson95": [
+        0.3865815007622585,
+        0.7811934676271791
+      ],
+      "total_nt": 8448,
+      "net_bits_per_nt": 0.48484848484848486,
+      "overhead_vs_ideal": 3.125,
+      "manifest_bytes": 320,
+      "encode_seconds": 0.004584999987855554,
+      "encode_peak_python_bytes": 16990,
+      "mean_decode_seconds": 0.01297147703007795,
+      "max_decode_peak_python_bytes": 10362
+    },
+    {
+      "config": {
+        "mode": "naive",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 4,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0.001,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.1,
+        "duplication": 0.1
+      },
+      "successes": 20,
+      "trials": 20,
+      "recovery_probability": 1.0,
+      "wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "total_nt": 8448,
+      "net_bits_per_nt": 0.48484848484848486,
+      "overhead_vs_ideal": 3.125,
+      "manifest_bytes": 320,
+      "encode_seconds": 0.004594083991833031,
+      "encode_peak_python_bytes": 16990,
+      "mean_decode_seconds": 0.016053579200524838,
+      "max_decode_peak_python_bytes": 10638
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 1,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 2,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0,
+        "duplication": 0.1
+      },
+      "successes": 20,
+      "trials": 20,
+      "recovery_probability": 1.0,
+      "wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "total_nt": 10560,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.03965004195924848,
+      "encode_peak_python_bytes": 21900,
+      "mean_decode_seconds": 0.043991795857436955,
+      "max_decode_peak_python_bytes": 8691
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 1,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 2,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.1,
+        "duplication": 0.1
+      },
+      "successes": 18,
+      "trials": 20,
+      "recovery_probability": 0.9,
+      "wilson95": [
+        0.6989663547715196,
+        0.9721335187862309
+      ],
+      "total_nt": 10560,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.03590779204387218,
+      "encode_peak_python_bytes": 20060,
+      "mean_decode_seconds": 0.04142787490854971,
+      "max_decode_peak_python_bytes": 9073
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 1,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 2,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.25,
+        "duplication": 0.1
+      },
+      "successes": 1,
+      "trials": 20,
+      "recovery_probability": 0.05,
+      "wilson95": [
+        0.008881448800795763,
+        0.236131193446735
+      ],
+      "total_nt": 10560,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.03616074996534735,
+      "encode_peak_python_bytes": 20060,
+      "mean_decode_seconds": 0.032887995801866056,
+      "max_decode_peak_python_bytes": 8894
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 1,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 2,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0.001,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.1,
+        "duplication": 0.1
+      },
+      "successes": 1,
+      "trials": 20,
+      "recovery_probability": 0.05,
+      "wilson95": [
+        0.008881448800795763,
+        0.236131193446735
+      ],
+      "total_nt": 10560,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.036886541987769306,
+      "encode_peak_python_bytes": 20092,
+      "mean_decode_seconds": 0.03533358134445734,
+      "max_decode_peak_python_bytes": 9422
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 1,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 4,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0,
+        "duplication": 0.1
+      },
+      "successes": 20,
+      "trials": 20,
+      "recovery_probability": 1.0,
+      "wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "total_nt": 12672,
+      "net_bits_per_nt": 0.32323232323232326,
+      "overhead_vs_ideal": 5.1875,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.044293749961070716,
+      "encode_peak_python_bytes": 22662,
+      "mean_decode_seconds": 0.05288850204087794,
+      "max_decode_peak_python_bytes": 10215
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 1,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 4,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.1,
+        "duplication": 0.1
+      },
+      "successes": 20,
+      "trials": 20,
+      "recovery_probability": 1.0,
+      "wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "total_nt": 12672,
+      "net_bits_per_nt": 0.32323232323232326,
+      "overhead_vs_ideal": 5.1875,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.04418924998026341,
+      "encode_peak_python_bytes": 22662,
+      "mean_decode_seconds": 0.05027689380804077,
+      "max_decode_peak_python_bytes": 10509
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 1,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 4,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.25,
+        "duplication": 0.1
+      },
+      "successes": 13,
+      "trials": 20,
+      "recovery_probability": 0.65,
+      "wilson95": [
+        0.4328542766852419,
+        0.8188081758989145
+      ],
+      "total_nt": 12672,
+      "net_bits_per_nt": 0.32323232323232326,
+      "overhead_vs_ideal": 5.1875,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.04389516694936901,
+      "encode_peak_python_bytes": 22662,
+      "mean_decode_seconds": 0.04293594169430435,
+      "max_decode_peak_python_bytes": 9273
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 1,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 4,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0.001,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.1,
+        "duplication": 0.1
+      },
+      "successes": 11,
+      "trials": 20,
+      "recovery_probability": 0.55,
+      "wilson95": [
+        0.3420853424503473,
+        0.7418021417443715
+      ],
+      "total_nt": 12672,
+      "net_bits_per_nt": 0.32323232323232326,
+      "overhead_vs_ideal": 5.1875,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.04420645802747458,
+      "encode_peak_python_bytes": 22662,
+      "mean_decode_seconds": 0.04600973328924738,
+      "max_decode_peak_python_bytes": 9708
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 2,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0,
+        "duplication": 0.1
+      },
+      "successes": 20,
+      "trials": 20,
+      "recovery_probability": 1.0,
+      "wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "total_nt": 8800,
+      "net_bits_per_nt": 0.46545454545454545,
+      "overhead_vs_ideal": 3.296875,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.03477116604335606,
+      "encode_peak_python_bytes": 21860,
+      "mean_decode_seconds": 0.03923995823715813,
+      "max_decode_peak_python_bytes": 8691
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 2,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.1,
+        "duplication": 0.1
+      },
+      "successes": 13,
+      "trials": 20,
+      "recovery_probability": 0.65,
+      "wilson95": [
+        0.4328542766852419,
+        0.8188081758989145
+      ],
+      "total_nt": 8800,
+      "net_bits_per_nt": 0.46545454545454545,
+      "overhead_vs_ideal": 3.296875,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.03182129201013595,
+      "encode_peak_python_bytes": 19140,
+      "mean_decode_seconds": 0.03706921035773121,
+      "max_decode_peak_python_bytes": 9031
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 2,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.25,
+        "duplication": 0.1
+      },
+      "successes": 1,
+      "trials": 20,
+      "recovery_probability": 0.05,
+      "wilson95": [
+        0.008881448800795763,
+        0.236131193446735
+      ],
+      "total_nt": 8800,
+      "net_bits_per_nt": 0.46545454545454545,
+      "overhead_vs_ideal": 3.296875,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.03155104198958725,
+      "encode_peak_python_bytes": 19140,
+      "mean_decode_seconds": 0.0297755166888237,
+      "max_decode_peak_python_bytes": 8821
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 2,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0.001,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.1,
+        "duplication": 0.1
+      },
+      "successes": 10,
+      "trials": 20,
+      "recovery_probability": 0.5,
+      "wilson95": [
+        0.29929800819821695,
+        0.700701991801783
+      ],
+      "total_nt": 8800,
+      "net_bits_per_nt": 0.46545454545454545,
+      "overhead_vs_ideal": 3.296875,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.0314098329981789,
+      "encode_peak_python_bytes": 19140,
+      "mean_decode_seconds": 0.03779960830579512,
+      "max_decode_peak_python_bytes": 9537
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 4,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0,
+        "duplication": 0.1
+      },
+      "successes": 20,
+      "trials": 20,
+      "recovery_probability": 1.0,
+      "wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "total_nt": 10560,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.03751441708300263,
+      "encode_peak_python_bytes": 21358,
+      "mean_decode_seconds": 0.04744368974352255,
+      "max_decode_peak_python_bytes": 10215
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 4,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.1,
+        "duplication": 0.1
+      },
+      "successes": 20,
+      "trials": 20,
+      "recovery_probability": 1.0,
+      "wilson95": [
+        0.838874841947188,
+        0.9999999999999999
+      ],
+      "total_nt": 10560,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.038019334082491696,
+      "encode_peak_python_bytes": 21358,
+      "mean_decode_seconds": 0.04572202084818855,
+      "max_decode_peak_python_bytes": 10516
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 4,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.25,
+        "duplication": 0.1
+      },
+      "successes": 13,
+      "trials": 20,
+      "recovery_probability": 0.65,
+      "wilson95": [
+        0.4328542766852419,
+        0.8188081758989145
+      ],
+      "total_nt": 10560,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.03799158404581249,
+      "encode_peak_python_bytes": 21358,
+      "mean_decode_seconds": 0.03946406040922738,
+      "max_decode_peak_python_bytes": 9168
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 8,
+        "parity_shards": 4,
+        "inner_parity": 12
+      },
+      "channel": {
+        "substitution": 0.001,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0.1,
+        "duplication": 0.1
+      },
+      "successes": 19,
+      "trials": 20,
+      "recovery_probability": 0.95,
+      "wilson95": [
+        0.7638688065532648,
+        0.9911185511992042
+      ],
+      "total_nt": 10560,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 326,
+      "encode_seconds": 0.03820499998982996,
+      "encode_peak_python_bytes": 21358,
+      "mean_decode_seconds": 0.04841088125831448,
+      "max_decode_peak_python_bytes": 10964
+    }
+  ]
+}

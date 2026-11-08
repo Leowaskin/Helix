@@ -1,0 +1,9 @@
+{
+  "reads": 12,
+  "accepted_reads": 12,
+  "repaired_reads": 4,
+  "rejected_reads": 0,
+  "ambiguous_reads": 0,
+  "budget_rejections": 0,
+  "candidates_tested": 1134
+}

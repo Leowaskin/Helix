@@ -1,0 +1,3837 @@
+{
+  "format": 1,
+  "python": "3.14.6",
+  "platform": "macOS-27.0.1-arm64-arm-64bit-Mach-O",
+  "reedsolo": "1.7.0",
+  "data_seed": 20261105,
+  "payload_bytes": 32,
+  "payload_sha256": "d218daa2d0901516d064251fe781d475d8a8d02d017b1c0fa20c7efb39e1d183",
+  "max_candidates": 8192,
+  "rows": [
+    {
+      "config": {
+        "mode": "naive",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 2,
+        "parity_shards": 1,
+        "inner_parity": 12,
+        "gc_min": 40,
+        "gc_max": 60
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0,
+        "duplication": 0
+      },
+      "total_nt": 528,
+      "net_bits_per_nt": 0.48484848484848486,
+      "overhead_vs_ideal": 3.125,
+      "manifest_bytes": 355,
+      "summaries": [
+        {
+          "enabled": false,
+          "successes": 10,
+          "recovery_probability": 1.0,
+          "wilson95": [
+            0.7224672001371218,
+            0.9999999999999999
+          ]
+        },
+        {
+          "enabled": true,
+          "successes": 10,
+          "recovery_probability": 1.0,
+          "wilson95": [
+            0.7224672001371218,
+            0.9999999999999999
+          ]
+        }
+      ],
+      "trials": [
+        {
+          "seed": 0,
+          "reads_sha256": "6a1fde3237e3c42692365912c2c0ff743fbcaeb1e23212ae94eb95975dfbb449",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0014004999538883567,
+              "peak_python_bytes": 5889,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0013046249514445662,
+              "peak_python_bytes": 5753,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 1,
+          "reads_sha256": "6a1fde3237e3c42692365912c2c0ff743fbcaeb1e23212ae94eb95975dfbb449",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.001316708978265524,
+              "peak_python_bytes": 5689,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.001307999948039651,
+              "peak_python_bytes": 5641,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 2,
+          "reads_sha256": "943208d3b47f79126eaedf17f287e0d869f1c05b650bf4356d29167ead135dae",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0013194580096751451,
+              "peak_python_bytes": 5585,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0013055000454187393,
+              "peak_python_bytes": 5553,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 3,
+          "reads_sha256": "943208d3b47f79126eaedf17f287e0d869f1c05b650bf4356d29167ead135dae",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.001364958006888628,
+              "peak_python_bytes": 5465,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0013767089694738388,
+              "peak_python_bytes": 5441,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 4,
+          "reads_sha256": "a16cafc4363f322052c1b79371329a858b7d4cc6b4ef4308fec35d54a6140d1b",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0014582080766558647,
+              "peak_python_bytes": 5369,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0013247079914435744,
+              "peak_python_bytes": 5369,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 5,
+          "reads_sha256": "6a1fde3237e3c42692365912c2c0ff743fbcaeb1e23212ae94eb95975dfbb449",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0012927919160574675,
+              "peak_python_bytes": 5329,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0012863329611718655,
+              "peak_python_bytes": 5337,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 6,
+          "reads_sha256": "a16cafc4363f322052c1b79371329a858b7d4cc6b4ef4308fec35d54a6140d1b",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.001289375009946525,
+              "peak_python_bytes": 5289,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.001291041960939765,
+              "peak_python_bytes": 5289,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 7,
+          "reads_sha256": "943208d3b47f79126eaedf17f287e0d869f1c05b650bf4356d29167ead135dae",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0012909580254927278,
+              "peak_python_bytes": 5249,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0013770000077784061,
+              "peak_python_bytes": 5257,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 8,
+          "reads_sha256": "6a1fde3237e3c42692365912c2c0ff743fbcaeb1e23212ae94eb95975dfbb449",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0013213329948484898,
+              "peak_python_bytes": 5217,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0012847920879721642,
+              "peak_python_bytes": 5225,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 9,
+          "reads_sha256": "241ea8fce7dc6a0a8feeafafcd1153fd3b54712b501a26c12a45e570180024cc",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.001293333014473319,
+              "peak_python_bytes": 5185,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0012908329954370856,
+              "peak_python_bytes": 5193,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "mode": "naive",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 2,
+        "parity_shards": 1,
+        "inner_parity": 12,
+        "gc_min": 40,
+        "gc_max": 60
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0.001,
+        "deletion": 0.001,
+        "dropout": 0,
+        "duplication": 0
+      },
+      "total_nt": 528,
+      "net_bits_per_nt": 0.48484848484848486,
+      "overhead_vs_ideal": 3.125,
+      "manifest_bytes": 355,
+      "summaries": [
+        {
+          "enabled": false,
+          "successes": 8,
+          "recovery_probability": 0.8,
+          "wilson95": [
+            0.49016247153665027,
+            0.943317848545623
+          ]
+        },
+        {
+          "enabled": true,
+          "successes": 10,
+          "recovery_probability": 1.0,
+          "wilson95": [
+            0.7224672001371218,
+            0.9999999999999999
+          ]
+        }
+      ],
+      "trials": [
+        {
+          "seed": 0,
+          "reads_sha256": "6a1fde3237e3c42692365912c2c0ff743fbcaeb1e23212ae94eb95975dfbb449",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0013017919845879078,
+              "peak_python_bytes": 5161,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0012866250472143292,
+              "peak_python_bytes": 5145,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 1,
+          "reads_sha256": "14f5bd8035b48ad6370ebc8fa4772170010928b02cf7304b1886e995b026c2e5",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0005472090560942888,
+              "peak_python_bytes": 5470,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.40741158300079405,
+              "peak_python_bytes": 138553,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 2,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1059
+              }
+            }
+          ]
+        },
+        {
+          "seed": 2,
+          "reads_sha256": "3f2a4825bc22134dbaf0b0e91f5da87d12feee1613ded7c4008fa018bd1f23a5",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0017693330300971866,
+              "peak_python_bytes": 6012,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.2077510409289971,
+              "peak_python_bytes": 135121,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 1,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 531
+              }
+            }
+          ]
+        },
+        {
+          "seed": 3,
+          "reads_sha256": "943208d3b47f79126eaedf17f287e0d869f1c05b650bf4356d29167ead135dae",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.001303957891650498,
+              "peak_python_bytes": 5105,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0012856250395998359,
+              "peak_python_bytes": 5129,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 4,
+          "reads_sha256": "ee6bbaf877767b23f5d02626fd31344cf3342ad5f2fa1a2ebb4cb73794c0281b",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0016936659812927246,
+              "peak_python_bytes": 5996,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.20190641598310322,
+              "peak_python_bytes": 135113,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 1,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 531
+              }
+            }
+          ]
+        },
+        {
+          "seed": 5,
+          "reads_sha256": "6a75a2a9e0630a71d7642c7c13f27142efe317aabb80d8b62c43d71cece05de7",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0017717080190777779,
+              "peak_python_bytes": 5996,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.20371412497479469,
+              "peak_python_bytes": 134959,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 1,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 531
+              }
+            }
+          ]
+        },
+        {
+          "seed": 6,
+          "reads_sha256": "588cdc74ebf218c90eb6ff0a38b8f5b259bb297f2b8474b8ac55c5b82de28c94",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0005980839487165213,
+              "peak_python_bytes": 4910,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.09308445802889764,
+              "peak_python_bytes": 66041,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 2,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 249
+              }
+            }
+          ]
+        },
+        {
+          "seed": 7,
+          "reads_sha256": "13a2e7d77577d0a891a21c2908cdaf08dcf087de97b5c0361b8049eea8ec40fe",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0017487499862909317,
+              "peak_python_bytes": 5996,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.04981904197484255,
+              "peak_python_bytes": 37893,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 1,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 129
+              }
+            }
+          ]
+        },
+        {
+          "seed": 8,
+          "reads_sha256": "6390a2b1228d1975ede0d824a80813a272267b2d0846bf16cf9e185d7a8fa8c2",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0017234579427167773,
+              "peak_python_bytes": 5996,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.2023136659990996,
+              "peak_python_bytes": 134959,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 1,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 531
+              }
+            }
+          ]
+        },
+        {
+          "seed": 9,
+          "reads_sha256": "241ea8fce7dc6a0a8feeafafcd1153fd3b54712b501a26c12a45e570180024cc",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0013242081040516496,
+              "peak_python_bytes": 5105,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0013087500119581819,
+              "peak_python_bytes": 5129,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "mode": "naive",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 2,
+        "parity_shards": 1,
+        "inner_parity": 12,
+        "gc_min": 40,
+        "gc_max": 60
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0.005,
+        "deletion": 0.005,
+        "dropout": 0,
+        "duplication": 0
+      },
+      "total_nt": 528,
+      "net_bits_per_nt": 0.48484848484848486,
+      "overhead_vs_ideal": 3.125,
+      "manifest_bytes": 355,
+      "summaries": [
+        {
+          "enabled": false,
+          "successes": 1,
+          "recovery_probability": 0.1,
+          "wilson95": [
+            0.017876213095073618,
+            0.40415002679522893
+          ]
+        },
+        {
+          "enabled": true,
+          "successes": 6,
+          "recovery_probability": 0.6,
+          "wilson95": [
+            0.31267376973366456,
+            0.8318196702937597
+          ]
+        }
+      ],
+      "trials": [
+        {
+          "seed": 0,
+          "reads_sha256": "3a4940b2fb4c43f48c91b451efb9f7abfc34a6e774351c014ad42fd0ae7e442e",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0003280830569565296,
+              "peak_python_bytes": 4559,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 0
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.25174579105805606,
+              "peak_python_bytes": 164120,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 2,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 655
+              }
+            }
+          ]
+        },
+        {
+          "seed": 1,
+          "reads_sha256": "d7f568aee7e49f146c9fc4c3c2e77f5569850f52434b2561aa8fddc9cf4ec608",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0009289169684052467,
+              "peak_python_bytes": 6542,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0008948750328272581,
+              "peak_python_bytes": 6566,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            }
+          ]
+        },
+        {
+          "seed": 2,
+          "reads_sha256": "f053415843eb96a4b98715b97f9558c64c02d084d3c28cf177b3d14d87d75033",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0005402079550549388,
+              "peak_python_bytes": 4910,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.23469275003299117,
+              "peak_python_bytes": 163607,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 1,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 655
+              }
+            }
+          ]
+        },
+        {
+          "seed": 3,
+          "reads_sha256": "2707bc138bba8c02a9529550d7fe1d803f5835acd6894d1a928cdc7c067b6113",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0003824590239673853,
+              "peak_python_bytes": 4559,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 0
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.14547991706058383,
+              "peak_python_bytes": 66202,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 3,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 372
+              }
+            }
+          ]
+        },
+        {
+          "seed": 4,
+          "reads_sha256": "8cb0a2a7b8a3d5ea45fad0215e4d36a1b6867fc6a6f686d8888de9323e20f129",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0008569159545004368,
+              "peak_python_bytes": 5374,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.2506121250335127,
+              "peak_python_bytes": 135128,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 1,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 656
+              }
+            }
+          ]
+        },
+        {
+          "seed": 5,
+          "reads_sha256": "611704a2861920a5bab172f9635fa5feda180376b80966a81b6d40516aac117c",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0007741670124232769,
+              "peak_python_bytes": 5314,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.22610058402642608,
+              "peak_python_bytes": 135168,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 1,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 530
+              }
+            }
+          ]
+        },
+        {
+          "seed": 6,
+          "reads_sha256": "da507acb47b2a30c93a51b67a1867580964e47f88ab536976f3f865f9b06a514",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0008245420176535845,
+              "peak_python_bytes": 6300,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0007435000734403729,
+              "peak_python_bytes": 6324,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            }
+          ]
+        },
+        {
+          "seed": 7,
+          "reads_sha256": "f4676fdf10d21e61e5281d0a72df46b9c7f757a2733dbef2713da04d438bcc37",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0003940839087590575,
+              "peak_python_bytes": 4591,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 0
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0003817079123109579,
+              "peak_python_bytes": 4615,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 0
+              }
+            }
+          ]
+        },
+        {
+          "seed": 8,
+          "reads_sha256": "7cdb18ca48849d0e2802a836e230f9f88c566a9d4bd0cfd3cb1a25b3df341f2f",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0007374580018222332,
+              "peak_python_bytes": 6332,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.09526495798490942,
+              "peak_python_bytes": 65800,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 1,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 248
+              }
+            }
+          ]
+        },
+        {
+          "seed": 9,
+          "reads_sha256": "3510f0b10e726f0e15a5a8b6d1d9de59dcbc50e4a04e63b34f9f2543badb8117",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0019028750248253345,
+              "peak_python_bytes": 6028,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.001862625009380281,
+              "peak_python_bytes": 5996,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 2,
+        "parity_shards": 1,
+        "inner_parity": 12,
+        "gc_min": 40,
+        "gc_max": 60
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0,
+        "duplication": 0
+      },
+      "total_nt": 660,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 361,
+      "summaries": [
+        {
+          "enabled": false,
+          "successes": 10,
+          "recovery_probability": 1.0,
+          "wilson95": [
+            0.7224672001371218,
+            0.9999999999999999
+          ]
+        },
+        {
+          "enabled": true,
+          "successes": 10,
+          "recovery_probability": 1.0,
+          "wilson95": [
+            0.7224672001371218,
+            0.9999999999999999
+          ]
+        }
+      ],
+      "trials": [
+        {
+          "seed": 0,
+          "reads_sha256": "eff8ea44029027b21db4b848dc9dea4c5da59928bc0e10d5975e487ea774ed37",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.00345037505030632,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003528124885633588,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 1,
+          "reads_sha256": "7131287ca59aceccd94da21ba47ee14ca9092c48652ecdf6abf3a5cc5566afce",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0034087910316884518,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003407625015825033,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 2,
+          "reads_sha256": "cf8d31c3fb1d640df625482c987fde9d9b8c2d244e169d601709f1a8e9bcaddc",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0033681669738143682,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003380458918400109,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 3,
+          "reads_sha256": "7131287ca59aceccd94da21ba47ee14ca9092c48652ecdf6abf3a5cc5566afce",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0034903340274468064,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003363874973729253,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 4,
+          "reads_sha256": "cf8d31c3fb1d640df625482c987fde9d9b8c2d244e169d601709f1a8e9bcaddc",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.003356542089022696,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0033690419513732195,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 5,
+          "reads_sha256": "eddd9034958cc89bf214aaff7d16795e09130e0ca5e9c851dcb344e540574835",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0033718330087140203,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0033313750755041838,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 6,
+          "reads_sha256": "9404c791acac50da9ebd91774f7793a10f5a1d6ca2d7015af50690f4b63d5021",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0032909580040723085,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0033194590359926224,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 7,
+          "reads_sha256": "cf8d31c3fb1d640df625482c987fde9d9b8c2d244e169d601709f1a8e9bcaddc",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0032894170144572854,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003292415989562869,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 8,
+          "reads_sha256": "eff8ea44029027b21db4b848dc9dea4c5da59928bc0e10d5975e487ea774ed37",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.003285457962192595,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003273624926805496,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 9,
+          "reads_sha256": "eff8ea44029027b21db4b848dc9dea4c5da59928bc0e10d5975e487ea774ed37",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.003307500039227307,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003290915978141129,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 2,
+        "parity_shards": 1,
+        "inner_parity": 12,
+        "gc_min": 40,
+        "gc_max": 60
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0.001,
+        "deletion": 0.001,
+        "dropout": 0,
+        "duplication": 0
+      },
+      "total_nt": 660,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 361,
+      "summaries": [
+        {
+          "enabled": false,
+          "successes": 5,
+          "recovery_probability": 0.5,
+          "wilson95": [
+            0.23659309051256927,
+            0.7634069094874307
+          ]
+        },
+        {
+          "enabled": true,
+          "successes": 10,
+          "recovery_probability": 1.0,
+          "wilson95": [
+            0.7224672001371218,
+            0.9999999999999999
+          ]
+        }
+      ],
+      "trials": [
+        {
+          "seed": 0,
+          "reads_sha256": "eff8ea44029027b21db4b848dc9dea4c5da59928bc0e10d5975e487ea774ed37",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0032988330349326134,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003285875078290701,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 1,
+          "reads_sha256": "50cd567d5e758ab29c4f830f6e49e4b01f0c3f0c6732d95918f46dc68f8323c0",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0012495419941842556,
+              "peak_python_bytes": 4942,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.20648133393842727,
+              "peak_python_bytes": 237536,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 2,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 828
+              }
+            }
+          ]
+        },
+        {
+          "seed": 2,
+          "reads_sha256": "3c5e038b8e4518fcb59fed3ad3b9834b25f280f55cc8bcb8c295872d09c00b28",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0030959169380366802,
+              "peak_python_bytes": 6588,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.09092883300036192,
+              "peak_python_bytes": 53485,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 1,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 169
+              }
+            }
+          ]
+        },
+        {
+          "seed": 3,
+          "reads_sha256": "eb88c18353e44027ecaa9aa0716de7127cf2ade245f95c6e1722ff980371af32",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.00309412507340312,
+              "peak_python_bytes": 6028,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.08010241598822176,
+              "peak_python_bytes": 51589,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 1,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 162
+              }
+            }
+          ]
+        },
+        {
+          "seed": 4,
+          "reads_sha256": "f86220f764f7071890a2edae9b3c45cf79141de8d5bd9fd5c261c579254fe092",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0013039590558037162,
+              "peak_python_bytes": 4942,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.4377470830222592,
+              "peak_python_bytes": 236114,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 2,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 821
+              }
+            }
+          ]
+        },
+        {
+          "seed": 5,
+          "reads_sha256": "1799a830a451a9ec50ff3b3fa0898f5715c8cae05db62c197e0ffe5d63ad4eef",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0013169159647077322,
+              "peak_python_bytes": 4942,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.3262425829889253,
+              "peak_python_bytes": 235939,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 2,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 821
+              }
+            }
+          ]
+        },
+        {
+          "seed": 6,
+          "reads_sha256": "59766dc5e14d1973a3d991371a61f7c943e411f15f22368df9892c1bc3ae8ff6",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0013293749652802944,
+              "peak_python_bytes": 4942,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.15709858294576406,
+              "peak_python_bytes": 95293,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 2,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 320
+              }
+            }
+          ]
+        },
+        {
+          "seed": 7,
+          "reads_sha256": "d08307ac5f805c3a52c93ef71cf7a12c380558876afc50b9dc2396317a840cc0",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0012684999965131283,
+              "peak_python_bytes": 5062,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.40716395911294967,
+              "peak_python_bytes": 192033,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 2,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 821
+              }
+            }
+          ]
+        },
+        {
+          "seed": 8,
+          "reads_sha256": "2fd7a1e55e6e50b90016e975971df9b4449f8ae3c66678705799bf43664341d7",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.003102625021710992,
+              "peak_python_bytes": 6148,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.3397217500023544,
+              "peak_python_bytes": 192841,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 1,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 663
+              }
+            }
+          ]
+        },
+        {
+          "seed": 9,
+          "reads_sha256": "eff8ea44029027b21db4b848dc9dea4c5da59928bc0e10d5975e487ea774ed37",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0033931660000234842,
+              "peak_python_bytes": 5258,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0033172499388456345,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "mode": "constrained",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 2,
+        "parity_shards": 1,
+        "inner_parity": 12,
+        "gc_min": 40,
+        "gc_max": 60
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0.005,
+        "deletion": 0.005,
+        "dropout": 0,
+        "duplication": 0
+      },
+      "total_nt": 660,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 361,
+      "summaries": [
+        {
+          "enabled": false,
+          "successes": 1,
+          "recovery_probability": 0.1,
+          "wilson95": [
+            0.017876213095073618,
+            0.40415002679522893
+          ]
+        },
+        {
+          "enabled": true,
+          "successes": 2,
+          "recovery_probability": 0.2,
+          "wilson95": [
+            0.05668215145437705,
+            0.5098375284633498
+          ]
+        }
+      ],
+      "trials": [
+        {
+          "seed": 0,
+          "reads_sha256": "0fe220539e16c271d3a7763d84b67bd89a82e0ee5f1456801314d55d4038efb3",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0009498749859631062,
+              "peak_python_bytes": 4886,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.3301465839613229,
+              "peak_python_bytes": 192177,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 1,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 662
+              }
+            }
+          ]
+        },
+        {
+          "seed": 1,
+          "reads_sha256": "dd330b4d2dccf61f8883e31e38c9f1a7cc313ac0aeb2f9526655ffd9689fca8b",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0016328749479725957,
+              "peak_python_bytes": 5329,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0015563330380246043,
+              "peak_python_bytes": 5233,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            }
+          ]
+        },
+        {
+          "seed": 2,
+          "reads_sha256": "47214bc4e95c92bbaaa1a039b0c065aff975d3095fdf5fb7aa8f15d7505a636f",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.000413666944950819,
+              "peak_python_bytes": 4711,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 0
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.10286250000353903,
+              "peak_python_bytes": 96179,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 1,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 325
+              }
+            }
+          ]
+        },
+        {
+          "seed": 3,
+          "reads_sha256": "f9c1bdfce37f51516e2a822c7d97f99c772ca9cb020943856daba3a5a5265c82",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0004313329700380564,
+              "peak_python_bytes": 4711,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 0
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.1203833749750629,
+              "peak_python_bytes": 97015,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 2,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 326
+              }
+            }
+          ]
+        },
+        {
+          "seed": 4,
+          "reads_sha256": "d891429288b044d402aa2b51da95148f4d81f588b9fdaf9c3768bf58dcf838b9",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0004324170295149088,
+              "peak_python_bytes": 4711,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 0
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.5423222919926047,
+              "peak_python_bytes": 376209,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 1,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1322
+              }
+            }
+          ]
+        },
+        {
+          "seed": 5,
+          "reads_sha256": "ab354bc622290b4888d1275d4d63a36b2062d57cdb0f6946226998a90fe681b9",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0006795841036364436,
+              "peak_python_bytes": 4975,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0685447909636423,
+              "peak_python_bytes": 50830,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 1,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 160
+              }
+            }
+          ]
+        },
+        {
+          "seed": 6,
+          "reads_sha256": "fcc005fcc5cb890fa174d7cc99bd82c62bd14bee6c706cecffab48f228cafcc5",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.00040383299347013235,
+              "peak_python_bytes": 4711,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 0
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.19551358302123845,
+              "peak_python_bytes": 190939,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 661
+              }
+            }
+          ]
+        },
+        {
+          "seed": 7,
+          "reads_sha256": "a059cc13ab82eb588f8a2597d02e6b9024f4c4412a87e88d3d130daba88dd258",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.001266542007215321,
+              "peak_python_bytes": 5062,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0012474579270929098,
+              "peak_python_bytes": 4966,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            }
+          ]
+        },
+        {
+          "seed": 8,
+          "reads_sha256": "a3e5847b70ae0e35cd1354a3911bd82dfe1ba5913479a746c0548094f3c686c2",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0007616670336574316,
+              "peak_python_bytes": 4989,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0007434170693159103,
+              "peak_python_bytes": 4893,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            }
+          ]
+        },
+        {
+          "seed": 9,
+          "reads_sha256": "9df9ff897e856594d256ccc557c622bad966980fc79d6146c94c248213badae5",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0030687920516356826,
+              "peak_python_bytes": 6260,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0030442080460488796,
+              "peak_python_bytes": 5996,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "mode": "gc",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 2,
+        "parity_shards": 1,
+        "inner_parity": 12,
+        "gc_min": 40,
+        "gc_max": 60
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0,
+        "deletion": 0,
+        "dropout": 0,
+        "duplication": 0
+      },
+      "total_nt": 660,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 352,
+      "summaries": [
+        {
+          "enabled": false,
+          "successes": 10,
+          "recovery_probability": 1.0,
+          "wilson95": [
+            0.7224672001371218,
+            0.9999999999999999
+          ]
+        },
+        {
+          "enabled": true,
+          "successes": 10,
+          "recovery_probability": 1.0,
+          "wilson95": [
+            0.7224672001371218,
+            0.9999999999999999
+          ]
+        }
+      ],
+      "trials": [
+        {
+          "seed": 0,
+          "reads_sha256": "f478fbed6beaaeae891c888a72ca14af30dc299599f2e67eed188824ba4a7b2c",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0034981670323759317,
+              "peak_python_bytes": 5106,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003501625033095479,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 1,
+          "reads_sha256": "97d766e1dd9c7903567bed5e28be7d43adee3a85778e10a05a6b399ecee4defe",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0034970409469679,
+              "peak_python_bytes": 5258,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0034981670323759317,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 2,
+          "reads_sha256": "897bfb5faf3941090841d9c3788c6f9e638a77c93783c52d3475bc3f3089b1d1",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0035158339887857437,
+              "peak_python_bytes": 5258,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0035062909591943026,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 3,
+          "reads_sha256": "97d766e1dd9c7903567bed5e28be7d43adee3a85778e10a05a6b399ecee4defe",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0035192500799894333,
+              "peak_python_bytes": 5258,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0034906250657513738,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 4,
+          "reads_sha256": "897bfb5faf3941090841d9c3788c6f9e638a77c93783c52d3475bc3f3089b1d1",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.003494917065836489,
+              "peak_python_bytes": 5258,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0035086249699816108,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 5,
+          "reads_sha256": "0e22d57672edf76a6fc27f37f4ab7081fca07586a430a122ae79af01d183ac0d",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0035050000296905637,
+              "peak_python_bytes": 5258,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0034932499984279275,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 6,
+          "reads_sha256": "a7f2af3f42644144688428b4cd652c5db6e87e25cdb634c1dd14bfad7a0a018e",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.003493624972179532,
+              "peak_python_bytes": 5258,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003483042004518211,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 7,
+          "reads_sha256": "897bfb5faf3941090841d9c3788c6f9e638a77c93783c52d3475bc3f3089b1d1",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0034873340046033263,
+              "peak_python_bytes": 5258,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0034923749044537544,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 8,
+          "reads_sha256": "f478fbed6beaaeae891c888a72ca14af30dc299599f2e67eed188824ba4a7b2c",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.003496833029203117,
+              "peak_python_bytes": 5258,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003495624987408519,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 9,
+          "reads_sha256": "f478fbed6beaaeae891c888a72ca14af30dc299599f2e67eed188824ba4a7b2c",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0035112500190734863,
+              "peak_python_bytes": 5258,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0034727919846773148,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "mode": "gc",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 2,
+        "parity_shards": 1,
+        "inner_parity": 12,
+        "gc_min": 40,
+        "gc_max": 60
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0.001,
+        "deletion": 0.001,
+        "dropout": 0,
+        "duplication": 0
+      },
+      "total_nt": 660,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 352,
+      "summaries": [
+        {
+          "enabled": false,
+          "successes": 5,
+          "recovery_probability": 0.5,
+          "wilson95": [
+            0.23659309051256927,
+            0.7634069094874307
+          ]
+        },
+        {
+          "enabled": true,
+          "successes": 10,
+          "recovery_probability": 1.0,
+          "wilson95": [
+            0.7224672001371218,
+            0.9999999999999999
+          ]
+        }
+      ],
+      "trials": [
+        {
+          "seed": 0,
+          "reads_sha256": "f478fbed6beaaeae891c888a72ca14af30dc299599f2e67eed188824ba4a7b2c",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.003640791983343661,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003543584025464952,
+              "peak_python_bytes": 5138,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        },
+        {
+          "seed": 1,
+          "reads_sha256": "14348ed7dc827f66ab14c74079dbf2c2eee969e20dac93f4fe763fdd10868797",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0013308339985087514,
+              "peak_python_bytes": 5062,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.493169708061032,
+              "peak_python_bytes": 237363,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 2,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 822
+              }
+            }
+          ]
+        },
+        {
+          "seed": 2,
+          "reads_sha256": "18a8c7eab6ee1706302f4278e93ceefafe8eb535db913df0c6f7cba77dd865ef",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.003276375005953014,
+              "peak_python_bytes": 6148,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.0888560829916969,
+              "peak_python_bytes": 51200,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 1,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 161
+              }
+            }
+          ]
+        },
+        {
+          "seed": 3,
+          "reads_sha256": "26f03bd10f0cf947f4b76d39d99ecbaab73cb6afaad4adc0bdd037b716b1cd78",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0032852499280124903,
+              "peak_python_bytes": 6148,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.09115462505724281,
+              "peak_python_bytes": 52412,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 1,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 165
+              }
+            }
+          ]
+        },
+        {
+          "seed": 4,
+          "reads_sha256": "c6095e2f04a488893ab5a1ae0a15013b5c85c62fcf5301ea2cf9f441fcbf6704",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.001341917086392641,
+              "peak_python_bytes": 5062,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.43458250002004206,
+              "peak_python_bytes": 236524,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 2,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 824
+              }
+            }
+          ]
+        },
+        {
+          "seed": 5,
+          "reads_sha256": "2a8c3201c3821fd6cf4330c24199e4d732b6ff7c8a53078da3ccf8149e2ad989",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0013506250688806176,
+              "peak_python_bytes": 5062,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.3640480829635635,
+              "peak_python_bytes": 236834,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 2,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 825
+              }
+            }
+          ]
+        },
+        {
+          "seed": 6,
+          "reads_sha256": "729bcadc3791bc97145f024374cf8539196a6a39a65cd38e797b3a36bbad91be",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0013427500380203128,
+              "peak_python_bytes": 5062,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.11683279101271182,
+              "peak_python_bytes": 93447,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 2,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 314
+              }
+            }
+          ]
+        },
+        {
+          "seed": 7,
+          "reads_sha256": "30ef430680c1292550a5f5e0c029c0f1ecb6aea87e143a14653f3a0b87de25fa",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.001350834034383297,
+              "peak_python_bytes": 5062,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.40061925002373755,
+              "peak_python_bytes": 192033,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 2,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 810
+              }
+            }
+          ]
+        },
+        {
+          "seed": 8,
+          "reads_sha256": "e9b49e768afa9f117f42d24cf64a9211b2e30651aa8aa6d30fab057d914645e0",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.003295874921604991,
+              "peak_python_bytes": 6148,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.36133374995552003,
+              "peak_python_bytes": 192977,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 1,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 663
+              }
+            }
+          ]
+        },
+        {
+          "seed": 9,
+          "reads_sha256": "f478fbed6beaaeae891c888a72ca14af30dc299599f2e67eed188824ba4a7b2c",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.003552958951331675,
+              "peak_python_bytes": 5258,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003527750028297305,
+              "peak_python_bytes": 5162,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 3,
+                "repaired_reads": 0,
+                "rejected_reads": 0,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "config": {
+        "mode": "gc",
+        "max_run": 3,
+        "chunk_bytes": 16,
+        "data_shards": 2,
+        "parity_shards": 1,
+        "inner_parity": 12,
+        "gc_min": 40,
+        "gc_max": 60
+      },
+      "channel": {
+        "substitution": 0,
+        "insertion": 0.005,
+        "deletion": 0.005,
+        "dropout": 0,
+        "duplication": 0
+      },
+      "total_nt": 660,
+      "net_bits_per_nt": 0.3878787878787879,
+      "overhead_vs_ideal": 4.15625,
+      "manifest_bytes": 352,
+      "summaries": [
+        {
+          "enabled": false,
+          "successes": 1,
+          "recovery_probability": 0.1,
+          "wilson95": [
+            0.017876213095073618,
+            0.40415002679522893
+          ]
+        },
+        {
+          "enabled": true,
+          "successes": 2,
+          "recovery_probability": 0.2,
+          "wilson95": [
+            0.05668215145437705,
+            0.5098375284633498
+          ]
+        }
+      ],
+      "trials": [
+        {
+          "seed": 0,
+          "reads_sha256": "1bd3d337cfda302ecc29c8f66ca1993b3331f5ce36678f7ddc693e0fbdfe7ec6",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0009846249595284462,
+              "peak_python_bytes": 4972,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.329759583924897,
+              "peak_python_bytes": 192157,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 1,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 662
+              }
+            }
+          ]
+        },
+        {
+          "seed": 1,
+          "reads_sha256": "e6960019590645af4aaf533683c21cef8fcd966edeb6b4bd7063ce8ced2e1142",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0015875829849392176,
+              "peak_python_bytes": 5409,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0015350829344242811,
+              "peak_python_bytes": 5313,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            }
+          ]
+        },
+        {
+          "seed": 2,
+          "reads_sha256": "3e5bc82ca352d77fe936e348c39329365f48ddefa2ba782db2b512d6d150f088",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.00039616692811250687,
+              "peak_python_bytes": 4711,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 0
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.1366319580702111,
+              "peak_python_bytes": 92305,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 1,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 310
+              }
+            }
+          ]
+        },
+        {
+          "seed": 3,
+          "reads_sha256": "2b3a6348eda3ece1c799647ac91616f2caf4657ccf78d3f72163d9122bf3d7c6",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.000395291019231081,
+              "peak_python_bytes": 4711,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 0
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.09357487503439188,
+              "peak_python_bytes": 91873,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 2,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 307
+              }
+            }
+          ]
+        },
+        {
+          "seed": 4,
+          "reads_sha256": "7037d7d0d3cd21078b8dc9198149c4c67dd1f27fbd816332b04827049d7d6bee",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0004354999400675297,
+              "peak_python_bytes": 4711,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 0
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.502935416996479,
+              "peak_python_bytes": 375948,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 1,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1322
+              }
+            }
+          ]
+        },
+        {
+          "seed": 5,
+          "reads_sha256": "7de549e1055f81bcc6cd37bb80478e04793b0db3542ab4e7a2c2ddedfdda8a89",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0006812079809606075,
+              "peak_python_bytes": 5061,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.07714591699186713,
+              "peak_python_bytes": 52051,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 1,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 164
+              }
+            }
+          ]
+        },
+        {
+          "seed": 6,
+          "reads_sha256": "0e7a7de97eaebb0b4a00339832b516486fc115e5287fb10052aa9b3f9e4a17a2",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0004035829333588481,
+              "peak_python_bytes": 4711,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 0
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.18838583398610353,
+              "peak_python_bytes": 190939,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 661
+              }
+            }
+          ]
+        },
+        {
+          "seed": 7,
+          "reads_sha256": "2067cee4134a6c765ad09374f6ca941a1ab8b8a5871b5e110c0d6ed2c01f18a8",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0014925829600542784,
+              "peak_python_bytes": 5062,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 2 erasures exceed 1",
+              "seconds": 0.0013390409294515848,
+              "peak_python_bytes": 4966,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 1,
+                "repaired_reads": 0,
+                "rejected_reads": 2,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            }
+          ]
+        },
+        {
+          "seed": 8,
+          "reads_sha256": "0dd85380482441ae87a73a859b53eb6d9f18cd8729bf137ffa957604ff89cae9",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.0007631250191479921,
+              "peak_python_bytes": 5075,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            },
+            {
+              "enabled": true,
+              "success": false,
+              "error": "group 0: 3 erasures exceed 1",
+              "seconds": 0.00075683300383389,
+              "peak_python_bytes": 4979,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 0,
+                "repaired_reads": 0,
+                "rejected_reads": 3,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 1
+              }
+            }
+          ]
+        },
+        {
+          "seed": 9,
+          "reads_sha256": "581927cf93060dadce762a45650a10698cff1dfa68ef7c9d7cf76feda44b1dc0",
+          "outcomes": [
+            {
+              "enabled": false,
+              "success": true,
+              "error": null,
+              "seconds": 0.0032222920563071966,
+              "peak_python_bytes": 6260,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            },
+            {
+              "enabled": true,
+              "success": true,
+              "error": null,
+              "seconds": 0.003206124994903803,
+              "peak_python_bytes": 5996,
+              "diagnostics": {
+                "reads": 3,
+                "accepted_reads": 2,
+                "repaired_reads": 0,
+                "rejected_reads": 1,
+                "ambiguous_reads": 0,
+                "budget_rejections": 0,
+                "candidates_tested": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

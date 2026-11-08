@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "config": {
+    "mode": "constrained",
+    "max_run": 3,
+    "chunk_bytes": 16,
+    "data_shards": 8,
+    "parity_shards": 4,
+    "inner_parity": 12
+  },
+  "size": 28,
+  "sha256": "75c8f16cefe4b4ca0f05df6ea49ec345d086346fa4ccbe60657c645528fb396e",
+  "groups": 1,
+  "strand_length": 220,
+  "primers": []
+}

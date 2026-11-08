@@ -1,0 +1,9 @@
+mode = "gc"
+max_run = 3
+# Percentages apply to each byte block and therefore the complete strand.
+gc_min = 50
+gc_max = 50
+chunk_bytes = 16
+data_shards = 8
+parity_shards = 4
+inner_parity = 12

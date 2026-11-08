@@ -1,0 +1,17 @@
+{
+  "bytes": 291,
+  "sha256": "8ec7593d3205143f45c92af69fe7104cfc5cf9296589c7c9f610e24d699578b7",
+  "baseline": "failed as expected",
+  "synchronization": "byte-identical recovery",
+  "damage": "drop shard 0 per group; alternate one insertion/deletion; reverse and duplicate",
+  "max_candidates": 8192,
+  "diagnostics": {
+    "reads": 34,
+    "accepted_reads": 34,
+    "repaired_reads": 34,
+    "rejected_reads": 0,
+    "ambiguous_reads": 0,
+    "budget_rejections": 0,
+    "candidates_tested": 15506
+  }
+}

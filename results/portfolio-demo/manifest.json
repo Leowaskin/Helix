@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "config": {
+    "mode": "gc",
+    "max_run": 3,
+    "chunk_bytes": 16,
+    "data_shards": 8,
+    "parity_shards": 4,
+    "inner_parity": 12,
+    "gc_min": 50,
+    "gc_max": 50
+  },
+  "size": 291,
+  "sha256": "8ec7593d3205143f45c92af69fe7104cfc5cf9296589c7c9f610e24d699578b7",
+  "groups": 3,
+  "strand_length": 264,
+  "primers": []
+}

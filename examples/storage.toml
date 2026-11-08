@@ -1,0 +1,6 @@
+mode = "constrained"
+max_run = 3
+chunk_bytes = 16
+data_shards = 8
+parity_shards = 4
+inner_parity = 12

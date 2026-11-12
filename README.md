@@ -3,6 +3,12 @@
 A constraint-aware DNA storage compiler and recovery testbench. Central question:
 **How do sequence constraints and error-correction overhead affect reliable file recovery?**
 
+## Explore the visual website
+
+The [visual companion](website/README.md) introduces the project with a Three.js
+DNA model, interactive encoding and a plain-language walkthrough. Preview it with
+`cd website && npm run preview`, then open http://localhost:4173.
+
 ## Run the portfolio demo
 
 ```sh

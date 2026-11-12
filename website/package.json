@@ -1,0 +1,1 @@
+{"name":"helix-explorer","private":true,"type":"module","scripts":{"check":"node --check dist/app.js && node --check dist/encoding.js","preview":"python3 -m http.server 4173 --directory dist"}}

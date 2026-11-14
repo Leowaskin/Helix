@@ -20,7 +20,15 @@ Damage and recovery are explicitly illustrative: the Python RS decoder is not
 ported to JavaScript. Repository links point to the full demo and measured results.
 All displayed benchmark numbers and the chart come from saved Helix experiments.
 
-The rotating model is conceptual, not a molecular model or physical DNA experiment.
+The scroll narrative progressively opens the double helix, fades its complementary
+strand, and straightens one strand into labeled A/C/G/T bases. Its 24 displayed
+bases use the same simple byte mapping as the message explorer. The final caption
+explains that base order represents data. This is a conceptual illustration,
+not a molecular model or simulation of a physical unzipping process.
+
+The animation reverses when scrolling upward. Pause freezes the model; reduced
+motion displays the final strand without an animated transition. Without WebGL,
+an SVG and static sequence support the same explanatory captions.
 Reduced-motion preferences, a pause control, an SVG fallback and responsive layouts
 are included. Browser-rendered interaction and visual QA could not be performed in
 this session because no browser-control tool was available.
